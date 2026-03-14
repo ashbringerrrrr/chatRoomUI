@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 
     engine.rootContext()->setContextProperty("loginVM", &loginVM);
 
-    const QUrl url(QStringLiteral("qrc:/pages/LoginPage.qml"));
+    const QUrl url(QStringLiteral("qrc:/main.qml"));
 
     QObject::connect(
         &engine,
